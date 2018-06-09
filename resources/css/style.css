@@ -222,7 +222,7 @@ header .flex-container {
     background-color: white;
     margin-top: 1rem;
     flex-flow: column wrap;
-    max-width: 10rem;
+    max-width: 13rem;
     flex-direction: row;
     flex-wrap: wrap;
   }
