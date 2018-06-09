@@ -106,14 +106,19 @@ header .flex-container {
 
 /* Nav Category Styles */
 
-.category {
-  height: 3rem;
-  background-color: maroon;
+.category .flex-container {
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
 }
 
+.category {
+  height: 3rem;
+  background-color: maroon;
+}
+
 .navlinks a {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: white;
   text-decoration: none;
 }
