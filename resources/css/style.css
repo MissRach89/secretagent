@@ -36,10 +36,6 @@ h1 {
   line-height: 2.8rem;
 }
 
-h2 {
-
-}
-
 h3 {
   font-family: "Helvetica", sans-serif;
   font-size: 1.5rem;
@@ -89,7 +85,7 @@ header .flex-container {
 .leader-text {
   background-color: black;
   padding: 2rem;
-  max-width: 380px;
+  max-width: 340px;
   opacity: 0.9;
 }
 
@@ -102,6 +98,10 @@ header .flex-container {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 2rem;
+}
+
+.leader a {
+  text-decoration: none;
 }
 
 /* Nav Category Styles */
@@ -117,14 +117,71 @@ header .flex-container {
   background-color: maroon;
 }
 
-.navlinks a {
+.navlinksbig a {
   font-size: 1rem;
   color: white;
   text-decoration: none;
 }
-.navlinks span {
+
+.navlinksbig span {
   align-items: center;
   justify-content: space-between;
+  padding: 1rem;
+}
+
+.navlinkssmall a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navlinkssmall span {
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .navlinksbig {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 501px) {
+  .navlinkssmall {
+    display: none;
+  }
+}
+
+/* Nav Category Styles */
+
+.store .flex-container {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.item {
+  border: 4px solid black;
+  background-color: white;
+}
+
+.item p {
+  text-align: center;
+  background-color: black;
+  padding: 1rem;
+  width: auto;
+}
+
+.item img {
+  max-width: 10rem;
+  margin: 1rem;
+  background-color: white;
+}
+
+#item-frame {
+
 }
 
 
@@ -137,7 +194,7 @@ footer {
 }
 
 footer .flex-container {
-width: 100%;
+  width: 100%;
   justify-content: flex-start;
   align-items: center;
 }
